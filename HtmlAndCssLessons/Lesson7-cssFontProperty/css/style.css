@@ -1,0 +1,12 @@
+.text{
+    color: red;
+    font-size: 4em;
+    /* 1em and 1rem = 16px */
+    /* font-weight: bolder; */
+    /* font-weight: 1000; */
+    font-style: italic;
+    /* line-height: 50px; */
+    /* letter-spacing: 20px; */
+    /* text-transform: capitalize; */
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
