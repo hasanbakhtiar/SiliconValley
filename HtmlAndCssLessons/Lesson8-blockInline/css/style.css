@@ -1,0 +1,87 @@
+/* .box{ */
+    /* width: 100px;
+    height: 100px;
+    background-color: red; */
+    /* qutunun xarici hissesini mesafe verir */
+    /* margin-left:10em ;
+    margin-top:10em ; */
+    /* margin-bottom: 10px;
+    margin-right: 20px; */
+/* saat eqrebi istiqametinde ishleyir */
+    /* margin: 10px 5px 50px 100px; */
+    /* margin: 10px 20px 50px; */
+    /* padding daxili mesafeni verir */
+ /* qutunun xarici hissesini mesafe verir */
+    /* padding-left:10em ;
+    padding-top:10em ; */
+    /* padding-bottom: 10px;
+    padding-right: 20px; */
+/* saat eqrebi istiqametinde ishleyir */
+    /* padding: 10px 5px 50px 100px; */
+    /* padding: 10px 20px 50px; */
+    /* padding-left: 100px; */
+    
+    
+/* } */
+
+
+/* .box1{ */
+    /* display: block; */
+    /* display: inline; */
+    /* display: inline-block;
+
+    width: 100px;
+    height: 100px;
+    background-color: red; */
+    /* margin-bottom: 10px; */
+/* } */
+/* .box2{ */
+    /* display: block; */
+    /* display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: green; */
+    /* margin-left: -5px; */
+
+/* } */
+
+/* 
+.myDiv{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.mySpan{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+} */
+
+
+.colorPen{
+    width: 100px;
+    height: 100px;
+    /* 1ci ad ile */
+    /* background-color: red; */
+
+    /* 2ci hex color */
+    /* 0123456789abcdef */
+    /* min-0 max-f */
+    /* ya 3 reqemli ya da 6 reqemli */
+    /* background-color: #587; */
+    /* background-color: #587136; */
+    /* background-color: #5670f0; */
+
+    /* rgb - red green blue  */
+    /* min 0 - max 255  */
+    /* background-color: rgb(26, 33, 100); */
+
+    /* rgba red green blue alpha */
+/* min 0  ...0.1-.2-.3/ max 1 */
+    /* background-color: rgba(255, 0, 0, 0.2); */
+    /* background-color: rgba(255, 0, 0, .2); */
+
+
+}
