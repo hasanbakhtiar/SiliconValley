@@ -1,0 +1,73 @@
+// section{
+//     width: 100%;
+//     height: 200px;
+// background-color: green;
+//     .box{
+//         width: 100px;
+//         height: 100px;
+
+//         background-color: red;
+//     }
+//     p{
+//         font-size: 20px;
+//     }
+// }
+// // max-width 0dan -> verilen olchuye qeder
+// // min-width sonsuzluqdan -> verilen olchuye qeder
+// @media (min-width:379px) {
+//     section{
+//         height: 500px;
+//     background-color: violet;
+//         .box{
+            
+    
+//             background-color: blue;
+//         }
+//         p{
+//             font-size: 40px;
+//         }
+//     }
+// }
+
+// .main-box{
+//     p::before{
+//         content: "New ";
+//         color: red;
+//     }
+
+//     p::after{
+//         content: "New ";
+//         color: red;
+//     }
+// }
+
+
+.box{
+    position: relative;
+    transition: 1s;
+    width: 100px;
+    height: 300px;
+    background-color: red;
+    /* z-index: 1; */
+    &::after{
+   
+        content: "";
+      
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        transition: 1s;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* z-index: -1; */
+    
+    }
+    &:hover::after {
+        content: "Hello";
+        color: white;
+        width: 100%;
+       
+    }
+
+}

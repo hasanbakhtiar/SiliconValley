@@ -1,0 +1,72 @@
+// section{
+//     .box{
+//         position: relative;
+//         width: 100px;
+//         height: 100px;
+//         background-color: red;
+//         // animation-name: hereket;
+//         // animation-duration: 2s;
+//         // animation-iteration-count: infinite;
+//         // animation-delay:2s ;
+//         animation: hereket 5s infinite;
+//     }
+
+//     @keyframes hereket{
+//         // from{left: 0px;}
+//         // to{left: 100px;}
+//         0%{
+//             left: 0px;
+//             top: 0px;
+//             background-color: red;
+//         }
+//         25%{
+//             left: 300px;
+//             top: 0px;
+//             background-color: green;
+//         }
+//         50%{
+//             left: 300px;
+//             top: 300px;
+//             background-color: yellow;
+//             color: red;
+//         }
+//         75%{
+//             left: 0px;
+//             top: 300px;
+//             background-color: aqua;
+//             color: black;
+//         }
+//         100%{
+//             left: 0px;
+//             top: 0px;
+//             background-color: black;
+//             color: red;
+//         }
+//     }
+// }
+
+.road{
+    height: 50vh;
+    
+    img{
+        position: relative;
+        animation: car-run 5s infinite;
+
+    }
+
+    @keyframes car-run {
+        0%{
+            left: 0px;
+        }
+        100%{
+            left: 70em;
+        }
+    }
+
+    .line{
+        width: 100%;
+        height: 13px;
+        background-color: rgb(90, 90, 90);
+        box-shadow: 5px 10px rgba(197, 197, 197,.5);
+    }
+}

@@ -1,0 +1,36 @@
+.road {
+  height: 50vh;
+}
+
+.road img {
+  position: relative;
+  -webkit-animation: car-run 5s infinite;
+          animation: car-run 5s infinite;
+}
+
+@-webkit-keyframes car-run {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 70em;
+  }
+}
+
+@keyframes car-run {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 70em;
+  }
+}
+
+.road .line {
+  width: 100%;
+  height: 13px;
+  background-color: #5a5a5a;
+  -webkit-box-shadow: 5px 10px rgba(197, 197, 197, 0.5);
+          box-shadow: 5px 10px rgba(197, 197, 197, 0.5);
+}
+/*# sourceMappingURL=style.css.map */
