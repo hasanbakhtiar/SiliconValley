@@ -1,0 +1,36 @@
+@mixin center {
+    display: flex;
+    justify-content: center ;
+}
+
+@mixin between {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin evenly {
+    display: flex;
+    justify-content:space-evenly ;
+}
+
+@mixin around {
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin start {
+    display: flex;
+    justify-content:flex-start ;
+}
+
+@mixin end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+*,body:not(i){
+    font-family: sans-serif;
+}

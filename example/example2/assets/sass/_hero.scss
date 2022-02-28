@@ -1,0 +1,81 @@
+
+
+.hero {
+    position: absolute;
+    top: 0px;
+    
+    width: 100%;
+    height: 100vh;
+    background: url("../img/hero-img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .hero-bg {
+       
+    width: 100%;
+    height: 100vh;
+    background-color: rgba($footer-color, $alpha: 0.5);
+    @include between();
+    flex-direction: column;
+    align-items: center;
+    .inner-container {
+      width: 80%;
+      height: 90vh;
+      @include between();
+      flex-direction: column;
+      .text-box {
+        width: 50%;
+        height: 50vh;
+        @include end();
+        flex-direction: column;
+        *{
+            color: #fff;
+        }
+        h1{
+            font-size:50px;
+            text-transform: uppercase ;
+            @media (max-width:321px) {
+              font-size:15px;
+            }
+
+        }
+        p{
+          @media (max-width:321px) {
+            font-size:10px;
+          }
+        }
+      }
+      .btn-box {
+        width: 100%;
+        height: 50vh;
+        @include center();
+        align-items: center;
+        flex-direction: column;
+        button {
+          width: 100px;
+          height: 40px;
+          background-color: $brand-color;
+          border: none;
+          border-radius: 5px;
+          color: #fff;
+          i{
+              margin-right: 5px;
+          }
+        }
+        @include evenly();
+        .icon-box {
+          @include between();
+          flex-direction: column;
+          align-items: center;
+          height: 7vh;
+          i{
+              font-size: 25px;
+          }
+          i,span {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

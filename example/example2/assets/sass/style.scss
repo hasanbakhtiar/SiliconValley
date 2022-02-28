@@ -1,0 +1,13 @@
+@import "mixin";
+@import "reset";
+@import "variables";
+.container {
+  position: relative;
+  height: 100vh;
+  @import "header";
+  @import "hero";
+}
+@import "luxury-box";
+@import "footer";
+@import "media";
+
