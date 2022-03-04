@@ -1,0 +1,14 @@
+.con {
+  width: 100%;
+  height: 100vh;
+}
+
+.my-btn {
+  color: purple !important;
+  border: 1px solid purple;
+}
+
+.my-btn:hover {
+  color: #fff !important;
+}
+/*# sourceMappingURL=style.css.map */

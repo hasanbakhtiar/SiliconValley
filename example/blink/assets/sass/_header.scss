@@ -1,0 +1,36 @@
+.bg-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/rectangle2.png');
+    background-size: cover;
+    background-position: center;
+    
+.nav-link{
+    color: #fff !important;
+}
+
+.dropdown-menu[data-bs-popper]{
+    left: -50px;
+}
+
+.dropdown-menu {
+    background-color: rgba($color: #000000, $alpha: .7);
+    *{
+        color: #fff;
+    }
+}
+
+.my-navbg{
+    
+    background-color: rgba($color: #000000, $alpha: .5) !important;
+}
+.active{
+    color: blue !important;
+}
+
+nav{
+    *{
+        text-transform: uppercase;
+    }
+}
+}

@@ -1,0 +1,49 @@
+.bg-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/rectangle2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-container .nav-link {
+  color: #fff !important;
+}
+
+.bg-container .dropdown-menu[data-bs-popper] {
+  left: -50px;
+}
+
+.bg-container .dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-container .dropdown-menu * {
+  color: #fff;
+}
+
+.bg-container .my-navbg {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.bg-container .active {
+  color: blue !important;
+}
+
+.bg-container nav * {
+  text-transform: uppercase;
+}
+
+.sec-one i {
+  font-size: 55px;
+}
+
+.sec-one .my-card {
+  border-radius: 0px;
+}
+
+.sec-one .row {
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+.con{
+    width: 100%;
+    height: 100vh;
+}
+// .card{
+//     height: 400px;
+// }
+
+.my-btn{
+    // color: purple !important; 
+    color: purple !important; 
+    border:  1px solid purple;
+    &:hover{
+        color: #fff !important;
+    }
+}
