@@ -1,0 +1,50 @@
+html{
+    overflow-x: hidden;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    nav{
+        width: 70%;
+        ul{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .visible-menu{
+
+        transform: translateX(0px);
+    }
+    .hidden-menu{
+
+        transform: translateX(400px);
+    }
+    menu{
+        transition: 1s;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 400px;
+        height: 100vh;
+        background-color: #757575;
+        display: flex;
+        justify-content: space-between;
+        ul{
+            width: 100%;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+        button{
+            height: 30px;
+        }
+    }
+}
