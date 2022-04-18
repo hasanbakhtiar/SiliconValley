@@ -1,0 +1,13 @@
+body, nav, #mode {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.lightBody {
+  background-color: #eee;
+}
+
+.darkBody {
+  background-color: #757575;
+}
+/*# sourceMappingURL=style.css.map */
