@@ -1,0 +1,24 @@
+html{
+    overflow-x: hidden;
+}
+
+.sec-one{
+    background-color: green;
+    height: 100vh;
+    .box{
+        margin: 5px;
+         height: 100px;
+         background-color: red;
+     }
+}
+
+
+.sec-two{
+    background-color: orange;
+    height: 100vh;
+    .box{
+        margin: 5px;
+         height: 100px;
+         background-color: blue;
+     }
+}
