@@ -2,24 +2,30 @@
 // Reducer Start
 const blogState = [];
 
-const BlogReduser = (state = blogState, action)=>{
+const BlogReduser = (state = blogState, action) => {
     switch (action.type) {
         case "ADD_BLOG":
-                return[
-                   ...state,
-                    action.blog    
-                ]        
-                case "REMOVE_BLOG":
-                    return state.filter(({id})=>{
-                        return id != action.id;
-                    })
+            return [
+                ...state,
+                action.blog
+            ]
+        case "REMOVE_BLOG":
+            return state.filter(({ id }) => {
+                return id != action.id;
+            })
         case "EDIT_BLOG":
-                return state.map((blog)=>{
-                    return{
+
+            return state.map((blog) => {
+                if (blog.id == action.id) {
+                    return {
                         ...blog,
                         ...action.update
                     }
-                })
+                } else {
+                    return blog;
+                }
+            })
+
         default:
             return state;
     }

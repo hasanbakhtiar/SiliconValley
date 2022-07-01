@@ -9,12 +9,12 @@ const EditBlogPage = props => {
         <h3 className='text-center'>Edit Page</h3>
         <BlogForm blog = {props.deyer}
             onFormSubmit={(update)=>{
-           props.dispatch(updateBlog({id:props.deyer.id}, update));
-           console.log(update);
-           props.history.push('/blog');
+           props.dispatch(updateBlog(props.deyer.id, update));
+        //    console.log(update);
+           props.history.push('/admin');
         }}
         />
-         <button c onClick={()=>{
+         <button  onClick={()=>{
              props.dispatch(removeBlog({id: props.deyer.id}))
              props.history.push('/admin');
             }} className='mt-3 btn btn-danger'>Delete</button>

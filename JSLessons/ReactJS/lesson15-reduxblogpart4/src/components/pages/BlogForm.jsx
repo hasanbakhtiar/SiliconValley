@@ -26,8 +26,8 @@ export class BlogForm extends Component {
         }else{
             this.setState({error:""});
             this.props.onFormSubmit({
-                basliq:this.state.title,
-                aciqlama:this.state.desc,
+                title:this.state.title,
+                desc:this.state.desc,
             })
         }
     }

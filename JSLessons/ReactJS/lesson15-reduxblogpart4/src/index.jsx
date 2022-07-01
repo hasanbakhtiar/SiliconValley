@@ -12,13 +12,13 @@ generalSystem.subscribe(()=>{
   console.log(generalSystem.getState());
 })
 
-const meqale = generalSystem.dispatch(addBlog({basliq:"hello", aciqlama:"desk"}));
-const meqale2 = generalSystem.dispatch(addBlog({basliq:"hello1", aciqlama:"desk1"}));
+const meqale = generalSystem.dispatch(addBlog({title:"hello", desc:"desk"}));
+const meqale2 = generalSystem.dispatch(addBlog({title:"hello1", desc:"desk1"}));
 console.log(meqale.blog.id);
 generalSystem.dispatch(removeBlog({id:meqale.blog.id}))
 generalSystem.dispatch(updateBlog(meqale2.blog.id,{title:"update",desc:"yeni"}))
-generalSystem.dispatch(addBlog({basliq:"Meqale yeni1",aciqlama:"Meqalenin aciqlamasi1"}))
-generalSystem.dispatch(addBlog({basliq:"Meqale yeni2",aciqlama:"Meqalenin aciqlamasi2"}))
+generalSystem.dispatch(addBlog({title:"Meqale yeni1",desc:"Meqalenin descsi1"}))
+generalSystem.dispatch(addBlog({title:"Meqale yeni2",desc:"Meqalenin descsi2"}))
 const Blog = ()=>{
   return(
     <h1>Blog</h1>
